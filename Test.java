@@ -6,7 +6,6 @@ public class Test {
         System.out.println("saya berasal dari kotabatu");
 
         System.out.println("Aureylio menambahkan baris kode ini");
-        System.out.println("jika kamu suka dia, katakan saja");
         System.out.println("saya ingin belajar git");
         
 
