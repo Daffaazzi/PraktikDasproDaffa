@@ -20,6 +20,14 @@ public class CaseMethod1 {
         String Nilai2 = input.nextLine();
 
         System.out.println("---MATAKULIAH 2: STRUKTUR DATA---");
+        System.out.print("Nilai UTS:");
+        String Nilai3 = input.nextLine();
+        System.out.print("Nilai UAS:");
+        String Nilai4 = input.nextLine();
+        System.out.print("Nilai Tugas:");
+        String Nilai5 = input.nextLine();
+  
+    
 
 
 
