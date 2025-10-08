@@ -1,0 +1,70 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CaseMethod1",
+            "request": "launch",
+            "mainClass": "CaseMethod1",
+            "projectName": "PraktikDasproDaffa_a63f392d"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "InputAngkaGenapGanjil08",
+            "request": "launch",
+            "mainClass": "InputAngkaGenapGanjil08",
+            "projectName": "PraktikDasproDaffa_a63f392d"
+        },
+        {
+            "type": "java",
+            "name": "NestedUjianSkripsi08",
+            "request": "launch",
+            "mainClass": "NestedUjianSkripsi08",
+            "projectName": "PraktikDasproDaffa_a63f392d"
+        },
+        {
+            "type": "java",
+            "name": "Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "PraktikDasproDaffa_a63f392d"
+        },
+        {
+            "type": "java",
+            "name": "Wifi08",
+            "request": "launch",
+            "mainClass": "Wifi08",
+            "projectName": "PraktikDasproDaffa_a63f392d"
+        },
+        {
+            "type": "java",
+            "name": "ifCetakKRS08",
+            "request": "launch",
+            "mainClass": "ifCetakKRS08",
+            "projectName": "PraktikDasproDaffa_a63f392d"
+        },
+        {
+            "type": "java",
+            "name": "ifElseCetakKRS08",
+            "request": "launch",
+            "mainClass": "ifElseCetakKRS08",
+            "projectName": "PraktikDasproDaffa_a63f392d"
+        },
+        {
+            "type": "java",
+            "name": "switchCetakKRS08",
+            "request": "launch",
+            "mainClass": "switchCetakKRS08",
+            "projectName": "PraktikDasproDaffa_a63f392d"
+        }
+    ]
+}
