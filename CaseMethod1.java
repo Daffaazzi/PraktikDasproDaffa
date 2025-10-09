@@ -103,7 +103,9 @@ public class CaseMethod1 {
               System.out.println("Status Semester: TIDAK LULUS");
 
               double ra = (nilaiAkhirAP + nilaiAkhirSD) / 2;
-        String statusSemester = (rata >= 70) ? "LULUS" : "TIDAK LULUS (Rata-rata < 70)";
+           String statusSemester = (rata >= 70) ? "LULUS" : "TIDAK LULUS (Rata-rata < 70)";
+        System.out.println("Status Semester: " + statusSemester);
+
 
             }
           input.close();
