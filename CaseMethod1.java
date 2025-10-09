@@ -41,7 +41,26 @@ public class CaseMethod1 {
         System.out.println("Nilai Akhir Algoritma dan Pemrograman: " + nilaiAkhirAP);
         System.out.println("Nilai Akhir Struktur Data: " + nilaiAkhirSD);
 
-      
+       if (nilaiAkhirAP >= 80 && nilaiAkhirAP <= 100) {
+            System.out.println("Grade Algoritma dan Pemrograman: A");
+        } else if (nilaiAkhirAP >= 73 && nilaiAkhirAP < 80) {
+            System.out.println("Grade Algoritma dan Pemrograman: B+");
+        } else if (nilaiAkhirAP >= 65 && nilaiAkhirAP < 70) {
+            System.out.println("Grade6 Algoritma dan Pemrograman: B");
+        } else if (nilaiAkhirAP >= 60 && nilaiAkhirAP < 65) {
+            System.out.println("Grade Algoritma dan Pemrograman: C+");
+        } else if (nilaiAkhirAP >= 50 && nilaiAkhirAP < 60) {
+            System.out.println("Grade Algoritma dan Pemrograman: C+");
+        } else if (nilaiAkhirAP >= 39 && nilaiAkhirAP < 50) {
+            System.out.println("Grade6 Algoritma dan Pemrograman: D");
+        } else if (nilaiAkhirAP >= 0 && nilaiAkhirAP < 39) {
+            System.out.println("Grade Algoritma dan Pemrograman: E");
+        } else {
+            System.out.println("Nilai tidak valid untuk Algoritma dan Pemrograman.");
+        }
+
+     
+
         
         }
     }
