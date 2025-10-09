@@ -36,7 +36,12 @@ public class CaseMethod1 {
         double uasSD = Double.parseDouble(Nilai4);
         double tugasSD = Double.parseDouble(Nilai5);
 
-        
+        double nilaiAkhirAP = (0.3 * utsAP) + (0.4 * uasAP) + (0.3 * tugasAP);
+        double nilaiAkhirSD = (0.3 * utsSD) + (0.4 * uasSD) + (0.3 * tugasSD);
+        System.out.println("Nilai Akhir Algoritma dan Pemrograman: " + nilaiAkhirAP);
+        System.out.println("Nilai Akhir Struktur Data: " + nilaiAkhirSD);
+
+      
         
         }
     }
