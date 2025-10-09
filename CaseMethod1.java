@@ -32,12 +32,12 @@ public class CaseMethod1 {
         double uasAP = Double.parseDouble(Nilai1);
         double tugasAP = Double.parseDouble(Nilai2);
 
+        double utsSD = Double.parseDouble(Nilai3);
+        double uasSD = Double.parseDouble(Nilai4);
+        double tugasSD = Double.parseDouble(Nilai5);
+
+        
         
         }
-    
-
-
-
-
     }
     
