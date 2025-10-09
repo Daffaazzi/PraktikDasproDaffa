@@ -48,7 +48,7 @@ public class CaseMethod1 {
  
         System.out.println("MATA KULIAH              \t     UTS\t            UAS\t           Tugas\t           Nilai Akhir      \tNILAI HURUF\tSTATUS");
         System.out.println("--------------------------------------------------------------------------");
-        System.out.println("Algoritma dan Pemrograman : \t" + utsAP + "\t\t" + uasAP + "\t\t" + tugasAP + "\t\t" + nilaiAkhirAP +);
+        System.out.println("Algoritma dan Pemrograman : \t" + utsAP + "\t\t" + uasAP + "\t\t" + tugasAP + "\t\t" + nilaiAkhirAP);
         System.out.println("Struktur Data             : \t" + utsSD + "\t\t" + uasSD + "\t\t" + tugasSD + "\t\t" + nilaiAkhirSD);
 
 
@@ -56,47 +56,47 @@ public class CaseMethod1 {
         System.out.println("Nilai Akhir Struktur Data: " + nilaiAkhirSD);
 
            if (nilaiAkhirAP >= 80 && nilaiAkhirAP <= 100) {
-                System.out.println("Grade Algoritma dan Pemrograman: A");
+                System.out.println("Huruf Algoritma dan Pemrograman: A");
             } else if (nilaiAkhirAP >= 73 && nilaiAkhirAP < 80) {
-                System.out.println("Grade Algoritma dan Pemrograman: B+");
+                System.out.println("Huruf Algoritma dan Pemrograman: B+");
             } else if (nilaiAkhirAP >= 65 && nilaiAkhirAP < 70) {
-                System.out.println("Grade6 Algoritma dan Pemrograman: B");
+                System.out.println("Huruf Algoritma dan Pemrograman: B");
             } else if (nilaiAkhirAP >= 60 && nilaiAkhirAP < 65) {
-                System.out.println("Grade Algoritma dan Pemrograman: C+");
+                System.out.println("Huruf Algoritma dan Pemrograman: C+");
             } else if (nilaiAkhirAP >= 50 && nilaiAkhirAP < 60) {
-                System.out.println("Grade Algoritma dan Pemrograman: C+");
+                System.out.println("Huruf Algoritma dan Pemrograman: C+");
             } else if (nilaiAkhirAP >= 39 && nilaiAkhirAP < 50) {
-                System.out.println("Grade Algoritma dan Pemrograman: D");
+                System.out.println("Huruf Algoritma dan Pemrograman: D");
             } else if (nilaiAkhirAP >= 0 && nilaiAkhirAP < 39) {
-                System.out.println("Grade Algoritma dan Pemrograman: E");
+                System.out.println("Huruf Algoritma dan Pemrograman: E");
             } else {
                 System.out.println("Nilai tidak valid untuk Algoritma dan Pemrograman.");
             }
 
             if (nilaiAkhirSD >= 80 && nilaiAkhirSD <= 100) {
-                System.out.println("Grade Struktur Data: A");
+                System.out.println("Huruf Struktur Data: A");
             } else if (nilaiAkhirSD >= 73 && nilaiAkhirSD < 80) {
-                System.out.println("Grade Struktur Data: B+");
+                System.out.println("Huruf Struktur Data: B+");
             } else if (nilaiAkhirSD >= 65 && nilaiAkhirSD < 70) {
-                System.out.println("Grade6 Struktur Data: B");
+                System.out.println("Huruf Struktur Data: B");
             } else if (nilaiAkhirSD >= 60 && nilaiAkhirSD < 65) {
-                System.out.println("Grade Struktur Data: C+");
+                System.out.println("Huruf Struktur Data: C+");
             } else if (nilaiAkhirSD >= 50 && nilaiAkhirSD < 60) {
-                System.out.println("Grade Struktur Data: C+");
+                System.out.println("Huruf Struktur Data: C+");
             } else if (nilaiAkhirSD >= 39 && nilaiAkhirSD < 50) {
-                System.out.println("Grade6 Struktur Data: D");
+                System.out.println("Huruf Struktur Data: D");
             } else if (nilaiAkhirSD >= 0 && nilaiAkhirSD < 39) {
-                System.out.println("Grade Struktur Data: E");
+                System.out.println("Huruf Struktur Data: E");
             } else {
                 System.out.println("Nilai tidak valid untuk Struktur Data.");
             }
-double rata = (nilaiAkhirAP + nilaiAkhirSD) / 2;
-System.out.println("Rata-rata Nilai: " + rata);
-if (rata >= 70) {
-    System.out.println("Status Semester: LULUS");
-} else {
-    System.out.println("Status Semester: TIDAK LULUS");
-}
+            double rata = (nilaiAkhirAP + nilaiAkhirSD) / 2;
+            System.out.println("Rata-rata Nilai: " + rata);
+            if (rata >= 70) {
+              System.out.println("Status Semester: LULUS");
+            } else {
+              System.out.println("Status Semester: TIDAK LULUS");
+            }
 
         }
       }
