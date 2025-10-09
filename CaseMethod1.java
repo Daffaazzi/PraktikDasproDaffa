@@ -43,7 +43,6 @@ public class CaseMethod1 {
         double nilaiAkhirAP = (0.3 * utsAP) + (0.4 * uasAP) + (0.3 * tugasAP);
         double nilaiAkhirSD = (0.3 * utsSD) + (0.4 * uasSD) + (0.3 * tugasSD);
 
-        // determine letter grades and statuses for both courses
         String HurufAP;
         if (nilaiAkhirAP >= 80 && nilaiAkhirAP <= 100) {
             HurufAP = "A";
@@ -94,10 +93,6 @@ public class CaseMethod1 {
         System.out.println("Algoritma dan Pemrograman : \t" + utsAP + "\t\t" + uasAP + "\t\t" + tugasAP + "\t\t" + nilaiAkhirAP + "\t\t" + HurufAP + "\t\t" + statusAP);
         System.out.println("Struktur Data             : \t" + utsSD + "\t\t" + uasSD + "\t\t" + tugasSD + "\t\t" + nilaiAkhirSD + "\t\t" + HurufSD + "\t\t" + statusSD);
 
-
-        System.out.println("Nilai Akhir Algoritma dan Pemrograman: " + nilaiAkhirAP);
-        System.out.println("Nilai Akhir Struktur Data: " + nilaiAkhirSD);
-
     
 
            if (nilaiAkhirAP >= 80 && nilaiAkhirAP <= 100) {
@@ -135,7 +130,8 @@ public class CaseMethod1 {
             } else {
                 System.out.println("Nilai tidak valid untuk Struktur Data.");
             }
-            double rata = (nilaiAkhirAP + nilaiAkhirSD) / 2;
+   
+         double rata = (nilaiAkhirAP + nilaiAkhirSD) / 2;
             System.out.println("Rata-rata Nilai: " + rata);
             if (rata >= 70) {
               System.out.println("Status Semester: LULUS");
@@ -146,9 +142,7 @@ public class CaseMethod1 {
         String statusSemester = (rata >= 70) ? "LULUS" : "TIDAK LULUS (Rata-rata < 70)";
 
             }
-
-    
-
+          input.close();
             }
 
-        }
+          }
