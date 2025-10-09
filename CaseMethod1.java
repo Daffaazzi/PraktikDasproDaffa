@@ -38,6 +38,8 @@ public class CaseMethod1 {
 
         double nilaiAkhirAP = (0.3 * utsAP) + (0.4 * uasAP) + (0.3 * tugasAP);
         double nilaiAkhirSD = (0.3 * utsSD) + (0.4 * uasSD) + (0.3 * tugasSD);
+        
+        System.out.println("MATAKULIAH\t\tUTS\t\tUAS\t\tTugas\t\tNilai Akhir\t\tNILAI HURUF\t\tSTATUS");
         System.out.println("Nilai Akhir Algoritma dan Pemrograman: " + nilaiAkhirAP);
         System.out.println("Nilai Akhir Struktur Data: " + nilaiAkhirSD);
 
@@ -59,9 +61,26 @@ public class CaseMethod1 {
             System.out.println("Nilai tidak valid untuk Algoritma dan Pemrograman.");
         }
 
-     
+        if (nilaiAkhirSD >= 80 && nilaiAkhirSD <= 100) {
+            System.out.println("Grade Struktur Data: A");
+        } else if (nilaiAkhirSD >= 73 && nilaiAkhirSD < 80) {
+            System.out.println("Grade Struktur Data: B+");
+        } else if (nilaiAkhirSD >= 65 && nilaiAkhirSD < 70) {
+            System.out.println("Grade6 Struktur Data: B");
+        } else if (nilaiAkhirSD >= 60 && nilaiAkhirSD < 65) {
+            System.out.println("Grade Struktur Data: C+");
+        } else if (nilaiAkhirSD >= 50 && nilaiAkhirSD < 60) {
+            System.out.println("Grade Struktur Data: C+");
+        } else if (nilaiAkhirSD >= 39 && nilaiAkhirSD < 50) {
+            System.out.println("Grade6 Struktur Data: D");
+        } else if (nilaiAkhirSD >= 0 && nilaiAkhirSD < 39) {
+            System.out.println("Grade Struktur Data: E");
+        } else {
+            System.out.println("Nilai tidak valid untuk Struktur Data.");
+
 
         
         }
+
+      }
     }
-    
